@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-generated data and reports
+data/processed/*.parquet
+data/quarantine/*.parquet
+reports/*.log
+reports/pipeline_report.json
